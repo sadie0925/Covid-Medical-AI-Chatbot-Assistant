@@ -1,0 +1,213 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good Morning",
+          "Good Evening",
+          "Can you help me?",
+          "I'd like to ask some questions",
+          "I have an inquiry",
+          "I want to ask something",
+          "Are you there?",
+          "Hola",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, Nice to meet you",
+          "Hi, glad to meet you",
+          "Hola, I'm here to help you :)",
+          "What can I help you?",
+          "What do you want?",
+          "Welcome",
+          "I'm your assistant today. What do you want to ask?",
+          "I'm a medical inquiry helper. Would you like to inquire about Covid-19?",
+          "Hi :) What are you looking for?",
+          "Hello, how can I help you?",
+          "Do you need help?"
+        ]
+      },
+      {
+        "tag": "appreciation",
+        "patterns": [
+          "Thanks", 
+          "Thank you", 
+          "That's helpful", 
+          "Thank you for helping", 
+          "It was helpful",
+          "You helped me a lot!",
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!", 
+          "No worry!", 
+          "No probelm", 
+          "Any time!", 
+          "It's my pleasure",
+          "My pleasure", 
+          "I'm glad that it was helpful :)",
+          "You're welcome", 
+          "Not at all",
+          "It’s no bother",
+          "That's all right",
+          "Sure!" 
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", 
+          "Byebye",
+          "See you later", 
+          "Goodbye", 
+          "Have a great day",
+          "Have a lovely day",
+          "Have a nice day",
+          "I hope you enojoy the rest of your day",
+          "Adios.",
+          "See ya :)"
+        ],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Thank you for using chatbot. See you!",
+          "Goodbye!",
+          "Bye",
+          "Byebye",
+          "I hope you enjoy the rest of your day!",
+          "Nice meeting you! Bye",
+          "It was glad to talk to you. I hope my answer was helpful",
+          "Thank you for visiting me. Have a lovely day",
+          "Great! Feel free to contact me anytime if you have more questions",
+          "Have a good day"
+        ]
+      },
+      {
+        "tag": "definition",
+        "patterns": [
+          "What is Covid-19?",
+          "Can you explain about Covid?",
+          "Could you please elaborate on coronavirus?", 
+          "Do you know corona?",
+          "May I ask you regarding definition of coronavirus pandemic?",
+          "Please go over the meaning of Covid"
+        ],
+        "responses": [
+          "Coronaviruses are a type of virus. The coronavirus can be spread from person to person. It is diagnosed with a test.",
+          "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. The coronavirus that emerged in December 2019. Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment. However, some will become seriously ill and require medical attention.",
+          "Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS)."
+        ]
+      },
+      {
+        "tag": "cause",
+        "patterns": [
+          "How did the coronavirus start?",
+          "What are the caues of this virus?",
+          "What is the orgin of Covid-19?",
+          "How did it begin?",
+          "Where did COVID 19 pandamic come from?"
+        ],
+        "responses": [
+          "The first case of COVID-19 was reported Dec. 1, 2019, and the cause was a then-new coronavirus later named SARS-CoV-2. SARS-CoV-2 may have originated in an animal and changed (mutated) so it could cause illness in humans. In the past, several infectious disease outbreaks have been traced to viruses originating in birds, pigs, bats and other animals that mutated to become dangerous to humans. Research continues, and more study may reveal how and why the coronavirus evolved to cause pandemic disease.",
+          "Global pandemic of coronavirus disease 2019 (COVID-19) was caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The novel virus was first identified from an outbreak in Wuhan, China, in December 2019. Attempts to contain it there failed, allowing the virus to spread to other areas of China and later worldwide.",
+          "In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China.",
+          "The recent outbreak began in Wuhan, a city in the Hubei province of China. Reports of the first COVID-19 cases started in December 2019. Coronaviruses are common in certain species of animals, such as cattle and camels. Although the transmission of coronaviruses from animals to humans is rareTrusted Source, this new strain likely came from bats, though one study suggests pangolins may be the origin. However, it remains unclear exactly how the virus first spread to humans."
+        ]
+      },
+      {
+        "tag": "transmission",
+        "patterns": [
+          "What is the most common way COVID-19 is transmitted?",
+          "How does the coronavirus spread?",
+          "What is the way of spreading corona?",
+          "How is it transmitted?"
+        ],
+        "responses": [
+          "As of now, researchers know that the coronavirus is spread through droplets and virus particles released into the air when an infected person breathes, talks, laughs, sings, coughs or sneezes. Larger droplets may fall to the ground in a few seconds, but tiny infectious particles can linger in the air and accumulate in indoor places, especially where many people are gathered and there is poor ventilation. This is why mask-wearing, hand hygiene and physical distancing are essential to preventing COVID-19.",
+          "SARS-CoV-2 spreads from person to person through close communities. When people with COVID-19 breathe out or cough, they expel tiny droplets that contain the virus. These droplets can enter the mouth or nose of someone without the virus, causing an infection to occur. The most common way that this illness spreads is through close contact with someone who has the infection. Close contact is within around 6 feet. Droplets containing the virus can also land on nearby surfaces or objects. Other people can pick up the virus by touching these surfaces or objects. Infection is likely if the person then touches their nose, eyes, or mouth. It is important to note that COVID-19 is new, and research is still ongoing. There may also be other ways that the new coronavirus can spread.",
+          "SARS-CoV-2, the virus that causes COVID-19, spreads from an infected person to others through respiratory droplets and aerosols when an infected person breathes, coughs, sneezes, sings, shouts, or talks.",
+          "COVID-19 spreads from an infected person to others through respiratory droplets and aerosols that can vary in size, such as: large droplets that fall to the ground rapidly (within seconds or minutes) near the infected person smaller droplets, sometimes called aerosols, that linger in the air, especially in indoor spaces",
+          "Current evidence suggests that the virus spreads mainly between people who are in close contact with each other, for example at a conversational distance. The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. Another person can then contract the virus when infectious particles that pass through the air are inhaled at short range (this is often called short-range aerosol or short-range airborne transmission) or if infectious particles come into direct contact with the eyes, nose, or mouth (droplet transmission).",
+          "The virus can spread from an infected person’s mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols. You can be infected by breathing in the virus if you are near someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth. The virus spreads more easily indoors and in crowded settings."
+        ]
+      },
+      {
+        "tag": "symptom",
+        "patterns": [
+          "What are the common symptoms of COVID-19?",
+          "How do I know if I get Covid or not?",
+          "I'd like to know the sympptoms of coronavirus disease."
+        ],
+        "responses": [
+          "Common symptoms of COVID-19 include a fever, breathlessness, a cough, a sore throat, a headache, muscle pain, chills, new loss of taste or smell. These symptoms are likely to occur from 2 to 14 days after exposure to the virus.",
+          "The most common symptoms are cough, fever or chills, shortness of breath or difficulty breathing, muscle or body aches, sore throat, new loss of taste or smell, diarrhea, headache, fatigue, nausea or vomiting and congestion or runny nose."
+        ]
+      },
+      {
+        "tag": "treatment",
+        "patterns": [
+          "How do I recover from Covid-19?",
+          "What are the treatments?",
+          "Can you explain how to get better I have coronavirus?",
+          "What is the cure for corona disease?",
+          "I want to know the recovery method of COVID.",
+          "How do I get over covid-19?",
+          "Can you tell me how to care myself with COVID-19?", 
+          "How do I get rid of covid symptoms?"
+        ],
+        "responses": [
+          "Most people who become sick with COVID-19 will only have mild illness and can get better at home. Follow the health care provider's suggestions about care and staying at home (isolating). Talk to the provider if you have any questions about treatments. Help the sick person get food and any medication needed. And, if needed, take care of the person's pet. Carefully watch yourself or your loved one for signs and symptoms that are getting worse. The health care provider might suggest use of a home pulse oximeter, especially if the sick person has risk factors for severe illness with COVID-19 and COVID-19 symptoms. A pulse oximeter is a plastic clip that attaches to a finger. The device can help check breathing by measuring how much oxygen is in the blood. A reading of less than 92% might increase the need for staying in the hospital. If the provider recommends a pulse oximeter, make sure you understand how to use the device properly. And make sure you know when a reading should prompt a call to the provider. If symptoms seem to be getting worse, call the provider.",
+          "An antiviral treatment may help your body fight COVID-19 by stopping the SARS-CoV-2 virus (the virus that causes COVID-19) from multiplying in your body. There are two ways to receive an antiviral treatment: by mouth, as a pill (oral antivirals), or by an infusion in your vein (IV antivirals). You need to take oral antivirals within the first 5 days after your COVID-19 symptoms appear. You need to receive IV antivirals within the first 7 days after your symptoms appear. The mAb treatment helps boost your body’s ability to fight COVID-19. The treatment is for people who are at a high risk for developing serious symptoms of COVID-19 and needs to be given within the first 7 days of when symptoms appear. The mAb treatment is given as either an IV infusion or as a series of shots.",
+          "If your symptoms are not serious and the symptom has been 5 days or less, you can take Paxlovid. This medication is taken by mouth (as a pill) to treat mild to moderate symptoms of COVID-19. It must be given within 5 days after the first symptoms of COVID-19 appear. Paxlovid is for adults and children who are 12 years of age and older, weighing at least 88 pounds. Or take Lagevrio. This medication is taken by mouth (as a pill) to treat mild to moderate symptoms of COVID-19. It must be given within 5 days after the first symptoms of COVID-19 appear. Lagevrio is for adults 18 years and older. Lagevrio is not recommended during pregnancy or when breastfeeding. Also, additional contraceptive methods are required for a short while after the last dose. If you experience serious symptoms, you need to call 911 or go to hospital and take proper treatment.",
+          "Treatment for COVID-19 depends on the severity of the infection. For milder illness, resting at home and taking medicine to reduce fever is often sufficient. More severe cases may require hospitalization, with treatment that might include intravenous medications, supplemental oxygen, assisted ventilation and other supportive measures" 
+        ]
+      },
+      {
+        "tag": "prevention",
+        "patterns": [
+          "How do you protect yourself from this??",
+          "How do I prevent COVID-19?",
+          "What are the precautions for coronavirus disease?",
+          "What are COVID-19 prevention actions?"
+        ],
+        "responses": [
+          "Vaccination is highly recommended to prevent coronavirus. It also helps to keep up with other safety precautions, such as following testing guidelines, wearing a mask, washing your hands and practicing physical distancing.",
+          "To prevent the spread of COVID-19: maintain a safe distance from others (at least 1 metre), even if they don’t appear to be sick. Wear a mask in public, especially indoors or when physical distancing is not possible. Choose open, well-ventilated spaces over closed ones. Open a window if indoors. Clean your hands often. Use soap and water, or an alcohol-based hand rub. Get vaccinated when it’s your turn. Follow local guidance about vaccination. Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance so your healthcare provider can direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections.",
+          "CDC recommends some prevention actions at all COVID-19 Community Levels, which include staying Up to Date with COVID-19 Vaccines, improving Ventilation, getting Tested for COVID-19 If Needed, following Recommendations for What to Do If You Have Been Exposed, staying Home If You Have Suspected or Confirmed COVID-19, seeking Treatment If You Have COVID-19 and Are at High Risk of Getting Very Sick and avoiding Contact with People Who Have Suspected or Confirmed COVID-19."
+        ]
+      },
+      {
+        "tag": "reasonVaccination",
+        "patterns": [
+          "Why should we get vaccinated?",
+          "Why is vaccination important?",
+          "Should I get a covid-19 vaccine?",
+          "I'm wondering the significance of vaccination.",
+          "Why does the government recommend to get vaccinated?"
+        ],
+        "responses": [
+          "Vaccination is one of the most effective ways to reduce the impact of infectious diseases. Vaccines work by causing the body to produce its own protection against the virus.",
+          "By getting vaccinated against COVID-19, you’re doing your part to help protect yourself against the disease. The more people who are vaccinated in the community, the lower the risk of infection for those who are not vaccinated and those who developed only partial immunity from the vaccine. This is the principle of herd immunity.",
+          "Immunization is one of the most important achievements in public health history, and routine immunizations have greatly helped to reduce illness, death and the spread of some infectious diseases in Canada and around the world. COVID-19 vaccines have been demonstrated to be effective in preventing the disease in individuals, but it is currently unknown if or to what degree vaccination will be sufficient to achieve herd immunity to prevent the spread of the COVID-19 virus. Please continue to follow recommended Public Health measures even after you get vaccinated."
+        ]
+      },
+      {
+        "tag": "locationVaccine",
+        "patterns": [
+          "Can you give me information of location that I can get vaccinated in Waterloo?",
+          "Where can I get vaccinated in Waterloo?",
+          "I'm not sure where to go for a vaccine in Waterloo",
+          "I want to know the place I can get vaccinated in waterloo.",
+          "I'd like to know where I book a covid-19 vaccine appointment within waterloo.",
+          "I'm wondering how I can get COVID-19 Omicron booster vaccine in Waterloo."
+        ],
+        "responses": [
+          "There are lots of place to get a covid vaccine or booster shot. Please refer to the website of regionofwaterloo."
+        ]
+      }
+    ]
+  }
